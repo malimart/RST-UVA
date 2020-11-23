@@ -19,5 +19,5 @@ int main()
         }
         i++;
     }
-    if (x == 0) printf("%d ni kvadrat nobenega stevila.\n", n); // ce se x v zanki ni spremnil, "n" ni kvadrat nobenega naravnega stevila
+    if (x == 0) printf("%d ni kvadrat nobenega stevila.\n", n); // ce se "x" v zanki ni spremenil, "n" ni kvadrat nobenega naravnega stevila
 }
