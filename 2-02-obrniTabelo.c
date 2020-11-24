@@ -10,7 +10,7 @@ int main()
     int len = sizeof(tabela) / sizeof(int);     // izracunaj dolzino tabele
     int i = 0;
     int temp;
-    while(i < len / 2)
+    while(i < len / 2)          // potreben je strogi neenacaj
     {
         temp = tabela[i];
         tabela[i] = tabela[len - 1 - i];
